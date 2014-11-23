@@ -1,6 +1,8 @@
 class CD(object):
 
-    def __init__(self, cd_id, cd_name, cd_status):
+    def __init__(self, cd_id, cd_name, cd_status, customer_id=None, due_date=None):
         self.cd_id = cd_id
         self.cd_name = cd_name
         self.cd_status = cd_status
+        self.customer_id = customer_id
+        self.due_date = due_date
