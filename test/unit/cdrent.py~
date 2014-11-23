@@ -1,0 +1,2 @@
+class CD(object):
+    pass
