@@ -1,5 +1,6 @@
 import unittest
-from cdrent import CD
+from cd import CD
+from customer import Customer
 from customerList import CustomerList
 from cdstorage import CDStorage
 

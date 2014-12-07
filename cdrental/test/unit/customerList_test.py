@@ -1,6 +1,6 @@
 import unittest
 from customer import Customer
-from cdrent import CD
+from cd import CD
 from customerList import CustomerList
 
 class TestCustomerList(unittest.TestCase):
